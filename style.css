@@ -1,0 +1,122 @@
+/* Reseteo de los estilos por defecto del navegador */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilos del header de la pagina */
+
+#header {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo-container {
+    text-align: center;
+}
+
+.logo-container img {
+    width: 100px;
+}
+
+.title-container {
+    text-align: center;
+}
+
+.title-container h1 {
+    padding: 20px;
+    font-size: 30px;
+}
+
+/* Estilos del contenedor principal */
+
+#container {
+    padding: 7px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Mayor exactitud para repartir las columnas que con porcentajes */
+    gap: 10px;
+}
+
+/* Estilos generales de los contenedores de los lenguajes */
+
+.card {
+    padding: 20px;
+    border: 3px solid;
+    border-radius: 10px;
+}
+
+h2, p {
+    margin-bottom: 15px;
+}
+
+/* Estilos especificos de los contenedores de los lenguajes */
+
+#go-container, #typeScript-container {
+    border-color: #c4005c;
+    background-color: #c8477b;
+    text-align: right;
+}
+
+#java-container, #swift-container {
+    border-color: #bfe000;
+    background-color: #cadf52;
+    text-align: center;
+}
+
+#cPP-container, #javaScript-container {
+    border-color: #5278ff;
+    background-color: #7794ff;
+}
+
+/* Estilos de las imagenes de los logos de los lenguajes */
+
+.logos {
+    width: 70px;
+    height: auto;
+}
+
+/* 
+    Redefiniciòn del tamaño del logo de Go para mayor acercamiento
+    a la referencia
+*/
+
+#goLogo {
+    width: 180px;
+}
+
+/* 
+    Redefiniciòn del tamaño del logo de Java para mayor acercamiento
+    a la referencia
+*/
+
+#javaLogo {
+    width: 50px;
+}
+
+/* 
+    Redefiniciòn del tamaño del logo de JavaScript para mayor acercamiento
+    a la referencia
+*/
+
+#javaScriptLogo {
+    width: 90px;
+}
+
+/* Estilos del footer */
+
+#footer {
+    height: 69px;
+    padding: 10px;
+    background-color: rgb(253, 255, 118);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#footer h3 {
+    text-align: center;
+    padding: 5px;
+}
+
+#footer p {
+    margin-left: 30px;
+}
